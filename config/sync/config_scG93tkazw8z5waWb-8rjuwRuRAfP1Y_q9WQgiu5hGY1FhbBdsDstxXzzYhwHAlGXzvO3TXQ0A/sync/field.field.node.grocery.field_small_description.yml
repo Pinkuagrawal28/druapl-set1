@@ -1,0 +1,26 @@
+uuid: a2993e3e-5230-4791-9052-d442d73c37c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_small_description
+    - filter.format.basic_html
+    - node.type.grocery
+  module:
+    - text
+id: node.grocery.field_small_description
+field_name: field_small_description
+entity_type: node
+bundle: grocery
+label: 'Small Description'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats:
+    - basic_html
+field_type: text_with_summary

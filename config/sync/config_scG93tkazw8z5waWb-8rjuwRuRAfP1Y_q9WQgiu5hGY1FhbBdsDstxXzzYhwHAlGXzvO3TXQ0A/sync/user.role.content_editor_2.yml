@@ -1,0 +1,21 @@
+uuid: 915827a1-76f5-4aa5-bcd1-ccf99775b0e2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fashion
+    - node.type.furniture
+    - node.type.mobiles
+  module:
+    - node
+id: content_editor_2
+label: 'Content Editor 2'
+weight: 5
+is_admin: false
+permissions:
+  - 'create fashion content'
+  - 'create furniture content'
+  - 'create mobiles content'
+  - 'edit own fashion content'
+  - 'edit own furniture content'
+  - 'edit own mobiles content'

@@ -1,0 +1,19 @@
+uuid: a1816b03-4c12-458c-9229-ac6a62b4c7e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_small_description_for_furn
+field_name: field_small_description_for_furn
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

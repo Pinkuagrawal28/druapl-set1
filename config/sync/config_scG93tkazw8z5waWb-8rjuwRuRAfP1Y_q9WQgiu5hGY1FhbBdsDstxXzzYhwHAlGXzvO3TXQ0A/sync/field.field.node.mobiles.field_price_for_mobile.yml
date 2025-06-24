@@ -1,0 +1,23 @@
+uuid: c678ac18-bf0b-42c5-af80-70a6d3e2a9f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_for_mobile
+    - node.type.mobiles
+id: node.mobiles.field_price_for_mobile
+field_name: field_price_for_mobile
+entity_type: node
+bundle: mobiles
+label: 'Price for Mobile'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: INR
+  suffix: ''
+field_type: integer

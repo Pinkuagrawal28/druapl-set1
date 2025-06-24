@@ -1,0 +1,48 @@
+uuid: a5e3bb9b-5824-4b08-852a-551084fa69ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.appliances.field_image_for_appliances
+    - field.field.node.appliances.field_price_for_appliances
+    - field.field.node.appliances.field_small_description_for_appl
+    - node.type.appliances
+  module:
+    - text
+    - user
+id: node.appliances.default
+targetEntityType: node
+bundle: appliances
+mode: default
+content:
+  field_image_for_appliances:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_price_for_appliances:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_small_description_for_appl:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

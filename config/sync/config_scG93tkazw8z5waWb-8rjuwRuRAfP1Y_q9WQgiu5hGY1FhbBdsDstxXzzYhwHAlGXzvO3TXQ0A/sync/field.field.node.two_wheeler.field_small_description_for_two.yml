@@ -1,0 +1,26 @@
+uuid: 4bbcb26d-9680-4b3a-ae70-0789684a67f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_small_description_for_two
+    - filter.format.basic_html
+    - node.type.two_wheeler
+  module:
+    - text
+id: node.two_wheeler.field_small_description_for_two
+field_name: field_small_description_for_two
+entity_type: node
+bundle: two_wheeler
+label: 'Small Description for Two Wheeler'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats:
+    - basic_html
+field_type: text_with_summary

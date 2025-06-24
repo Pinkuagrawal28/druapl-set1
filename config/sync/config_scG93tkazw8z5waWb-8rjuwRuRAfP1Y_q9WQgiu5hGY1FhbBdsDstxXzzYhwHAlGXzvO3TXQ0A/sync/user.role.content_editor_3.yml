@@ -1,0 +1,15 @@
+uuid: aca7a846-23a7-4858-b73d-a1bb5f009dfb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.two_wheeler
+  module:
+    - node
+id: content_editor_3
+label: 'Content Editor 3'
+weight: 6
+is_admin: false
+permissions:
+  - 'create two_wheeler content'
+  - 'edit own two_wheeler content'

@@ -1,0 +1,19 @@
+uuid: bc8e6eb6-d9b5-4af4-8187-930690412a49
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_small_description_for_appl
+field_name: field_small_description_for_appl
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,48 @@
+uuid: 335ba403-60b0-4dd7-924d-122f004f0ce3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.mobiles.field_image
+    - field.field.node.mobiles.field_price_for_mobile
+    - field.field.node.mobiles.field_small_description_for_mobi
+    - node.type.mobiles
+  module:
+    - text
+    - user
+id: node.mobiles.default
+targetEntityType: node
+bundle: mobiles
+mode: default
+content:
+  field_image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_price_for_mobile:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_small_description_for_mobi:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

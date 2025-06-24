@@ -1,0 +1,48 @@
+uuid: 895f3289-295d-4352-b958-9f1d16f319d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.grocery.field_image_product
+    - field.field.node.grocery.field_price
+    - field.field.node.grocery.field_small_description
+    - node.type.grocery
+  module:
+    - text
+    - user
+id: node.grocery.default
+targetEntityType: node
+bundle: grocery
+mode: default
+content:
+  field_image_product:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_price:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_small_description:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

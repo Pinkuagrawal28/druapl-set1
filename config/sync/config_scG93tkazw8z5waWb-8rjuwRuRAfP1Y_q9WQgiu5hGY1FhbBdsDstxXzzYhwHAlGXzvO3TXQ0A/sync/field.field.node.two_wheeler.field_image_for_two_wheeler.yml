@@ -1,0 +1,29 @@
+uuid: 190fdf5a-ca2f-46f7-808f-ba453b2db198
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_for_two_wheeler
+    - media.type.image
+    - node.type.two_wheeler
+id: node.two_wheeler.field_image_for_two_wheeler
+field_name: field_image_for_two_wheeler
+entity_type: node
+bundle: two_wheeler
+label: 'image for two wheeler'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

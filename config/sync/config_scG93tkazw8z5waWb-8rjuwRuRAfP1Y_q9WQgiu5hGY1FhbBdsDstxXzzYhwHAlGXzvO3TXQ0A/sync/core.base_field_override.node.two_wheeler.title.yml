@@ -1,0 +1,18 @@
+uuid: e48d8673-b194-472d-8296-2b008419fe8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.two_wheeler
+id: node.two_wheeler.title
+field_name: title
+entity_type: node
+bundle: two_wheeler
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

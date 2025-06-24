@@ -1,0 +1,20 @@
+uuid: 27a538e1-9b58-4dcf-8c39-174373262b9b
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - node
+id: node.field_image_for_appliances
+field_name: field_image_for_appliances
+entity_type: node
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,48 @@
+uuid: e690b12c-6146-483b-a207-babc0b5a3748
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.furniture.field_image_for_furniture
+    - field.field.node.furniture.field_price_for_furniture
+    - field.field.node.furniture.field_small_description_for_furn
+    - node.type.furniture
+  module:
+    - text
+    - user
+id: node.furniture.default
+targetEntityType: node
+bundle: furniture
+mode: default
+content:
+  field_image_for_furniture:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_price_for_furniture:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_small_description_for_furn:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
