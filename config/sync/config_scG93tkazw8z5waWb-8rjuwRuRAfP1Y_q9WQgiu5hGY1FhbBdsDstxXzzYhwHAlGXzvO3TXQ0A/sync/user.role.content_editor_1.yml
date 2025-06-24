@@ -1,0 +1,21 @@
+uuid: 83b801d5-2bf0-4caf-a190-0c976afe67d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.appliances
+    - node.type.electronics
+    - node.type.grocery
+  module:
+    - node
+id: content_editor_1
+label: 'Content Editor 1'
+weight: 4
+is_admin: false
+permissions:
+  - 'create appliances content'
+  - 'create electronics content'
+  - 'create grocery content'
+  - 'edit own appliances content'
+  - 'edit own electronics content'
+  - 'edit own grocery content'

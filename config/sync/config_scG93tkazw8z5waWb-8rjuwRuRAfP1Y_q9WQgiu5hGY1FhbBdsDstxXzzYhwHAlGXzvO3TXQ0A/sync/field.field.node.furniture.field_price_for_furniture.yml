@@ -1,0 +1,23 @@
+uuid: d2cf8938-0656-4490-8fab-99b2b6faf48a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_for_furniture
+    - node.type.furniture
+id: node.furniture.field_price_for_furniture
+field_name: field_price_for_furniture
+entity_type: node
+bundle: furniture
+label: 'Price for Furniture'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: INR
+  suffix: ''
+field_type: integer

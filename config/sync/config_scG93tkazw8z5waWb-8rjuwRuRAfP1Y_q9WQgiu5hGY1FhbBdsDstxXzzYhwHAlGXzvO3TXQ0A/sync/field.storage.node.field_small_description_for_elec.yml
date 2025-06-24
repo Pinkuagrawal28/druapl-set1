@@ -1,0 +1,19 @@
+uuid: 2cdc99f5-4764-4966-b752-c16afc3d754a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_small_description_for_elec
+field_name: field_small_description_for_elec
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: 21d68ab7-239e-4dba-901e-5cfc1697bfc8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_for_appliances
+    - node.type.appliances
+id: node.appliances.field_price_for_appliances
+field_name: field_price_for_appliances
+entity_type: node
+bundle: appliances
+label: 'Price for Appliances'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: INR
+  suffix: ''
+field_type: integer

@@ -1,0 +1,29 @@
+uuid: b079044d-4159-49e8-8ae9-469c5038d20e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_for_electronics
+    - media.type.image
+    - node.type.electronics
+id: node.electronics.field_image_for_electronics
+field_name: field_image_for_electronics
+entity_type: node
+bundle: electronics
+label: 'image for electronics'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

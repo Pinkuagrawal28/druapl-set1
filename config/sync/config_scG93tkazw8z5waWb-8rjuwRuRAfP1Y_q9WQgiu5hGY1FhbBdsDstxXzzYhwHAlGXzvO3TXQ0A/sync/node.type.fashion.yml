@@ -1,0 +1,17 @@
+uuid: 13b095de-9f3a-46ea-9ad4-a6e4d4949829
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Fashion
+type: fashion
+description: null
+help: null
+new_revision: true
+preview_mode: 2
+display_submitted: true

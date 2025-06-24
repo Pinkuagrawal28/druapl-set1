@@ -1,0 +1,29 @@
+uuid: 784752fd-2e7e-423f-962f-e2a366f59085
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.appliances_summary_block
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__appliances_summary_block_block_1
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:appliances_summary_block-block_1'
+settings:
+  id: 'views_block:appliances_summary_block-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: null
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

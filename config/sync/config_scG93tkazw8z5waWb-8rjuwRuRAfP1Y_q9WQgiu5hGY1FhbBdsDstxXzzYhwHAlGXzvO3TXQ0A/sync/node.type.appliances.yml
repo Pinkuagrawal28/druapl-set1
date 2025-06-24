@@ -1,0 +1,17 @@
+uuid: a3babd92-285e-4d38-968c-935221752ca3
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Appliances
+type: appliances
+description: null
+help: null
+new_revision: true
+preview_mode: 2
+display_submitted: true

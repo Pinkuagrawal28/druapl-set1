@@ -1,0 +1,20 @@
+uuid: 6dc4d2cc-19d2-416d-aef0-4587b10aea7c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_price_for_two_wheeler
+field_name: field_price_for_two_wheeler
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

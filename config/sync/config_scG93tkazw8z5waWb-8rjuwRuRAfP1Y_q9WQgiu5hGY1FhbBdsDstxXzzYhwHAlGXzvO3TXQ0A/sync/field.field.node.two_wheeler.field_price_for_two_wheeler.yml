@@ -1,0 +1,23 @@
+uuid: cf2de30e-b2d7-419a-afc9-b65071666782
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_for_two_wheeler
+    - node.type.two_wheeler
+id: node.two_wheeler.field_price_for_two_wheeler
+field_name: field_price_for_two_wheeler
+entity_type: node
+bundle: two_wheeler
+label: 'Price for Two Wheeler'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: INR
+  suffix: ''
+field_type: integer

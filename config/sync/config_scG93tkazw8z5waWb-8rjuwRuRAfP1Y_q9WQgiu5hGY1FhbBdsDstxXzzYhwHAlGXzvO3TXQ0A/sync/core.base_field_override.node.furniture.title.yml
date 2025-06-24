@@ -1,0 +1,18 @@
+uuid: 2666b6be-a754-411f-b4eb-01637b490b50
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.furniture
+id: node.furniture.title
+field_name: title
+entity_type: node
+bundle: furniture
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

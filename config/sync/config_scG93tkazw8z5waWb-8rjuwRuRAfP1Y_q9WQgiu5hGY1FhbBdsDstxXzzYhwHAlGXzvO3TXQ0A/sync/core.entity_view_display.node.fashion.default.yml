@@ -1,0 +1,48 @@
+uuid: 536b5a1e-5d5b-440f-bcb0-89365965d6c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.fashion.field_image_for_fashion
+    - field.field.node.fashion.field_price_for_fashion
+    - field.field.node.fashion.field_small_description_for_fash
+    - node.type.fashion
+  module:
+    - text
+    - user
+id: node.fashion.default
+targetEntityType: node
+bundle: fashion
+mode: default
+content:
+  field_image_for_fashion:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_price_for_fashion:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_small_description_for_fash:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

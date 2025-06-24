@@ -1,0 +1,29 @@
+uuid: c13c6f1e-2424-42c3-8f48-a4993e0b9af4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_product
+    - media.type.image
+    - node.type.grocery
+id: node.grocery.field_image_product
+field_name: field_image_product
+entity_type: node
+bundle: grocery
+label: 'image product'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
